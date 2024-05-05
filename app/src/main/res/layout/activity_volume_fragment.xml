@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".VolumeFragment">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:src="@drawable/balok"
+                    android:layout_margin="20dp"
+                    ></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Volume Balok"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/blue"
+                    />
+                <EditText
+                    android:id="@+id/panjang_balok"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Masukkan Panjang"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blue"
+
+                    ></EditText>
+
+                <EditText
+                    android:id="@+id/lebar_balok"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Masukkan Lebar"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blue"
+                    ></EditText>
+
+                <EditText
+                    android:id="@+id/tinggi_balok"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Masukkan Tinggi"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blue"
+                    ></EditText>
+
+                <TextView
+                    android:id="@+id/result_balok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Result Shows Here"
+                    android:textSize="16dp"
+                    android:textColor="@color/blue"
+                    android:layout_marginTop="10dp"
+                    />
+                <Button
+                    android:id="@+id/button_balok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Result"></Button>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:src="@drawable/limas"
+                    android:layout_margin="20dp"
+                    ></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Volume Piramid"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/blue"
+                    />
+                <EditText
+                    android:id="@+id/panjang_alaspiramid"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Masukkan panjang alas persegi"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blue"
+                    ></EditText>
+
+                <EditText
+                    android:id="@+id/lebar_alaspiramid"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Masukkan lebar alas persegi"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blue"
+                    ></EditText>
+
+                <EditText
+                    android:id="@+id/tinggi_piramid"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Masukkan tinggi piramid"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blue"
+                    ></EditText>
+
+                <TextView
+                    android:id="@+id/result_piramid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Result Shows Here"
+                    android:textSize="16dp"
+                    android:textColor="@color/blue"
+                    />
+
+                <Button
+                    android:id="@+id/button_piramid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Result"></Button>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:src="@drawable/cylinder"
+                    android:layout_margin="20dp"
+                    ></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Volume Tabung"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/blue"
+                    />
+                <EditText
+                    android:id="@+id/radius_tabung"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Masukkan radius tabung"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blue"
+                    ></EditText>
+
+                <EditText
+                    android:id="@+id/tinggi_tabung"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Masukkan tinggi tabung"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blue"
+                    ></EditText>
+
+                <TextView
+                    android:id="@+id/result_tabung"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Result Shows Here"
+                    android:textSize="16dp"
+                    android:textColor="@color/blue"
+                    />
+
+                <Button
+                    android:id="@+id/button_tabung"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Result"></Button>
+        </LinearLayout>
+
+
+
+</ScrollView>

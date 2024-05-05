@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".LuasFragment">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"      >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:src="@drawable/Rectangle"
+                    android:layout_margin="20dp"
+                    ></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Luas Persegi"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/blue"
+                    />
+                <EditText
+                    android:id="@+id/persegi_sisi1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Masukkan Sisi 1"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blue"
+
+                    ></EditText>
+
+                <EditText
+                    android:id="@+id/persegi_sisi2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Masukkan Sisi 2"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blue"
+                    ></EditText>
+
+                <TextView
+                    android:id="@+id/result_persegi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Result Shows Here"
+                    android:textSize="16dp"
+                    android:textColor="@color/blue"
+                    android:layout_marginTop="10dp"
+                    />
+                <Button
+                    android:id="@+id/button_persegi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Result"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:src="@drawable/Polygon"
+                    android:layout_margin="20dp"
+                    ></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Luas Segitiga"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/blue"
+                    />
+                <EditText
+                    android:id="@+id/segitiga_alas"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Masukkan alas"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blue"
+                    ></EditText>
+
+                <EditText
+                    android:id="@+id/segitia_tinggi"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Masukkan tinggi"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blue"
+                    ></EditText>
+
+                <TextView
+                    android:id="@+id/result_segitiga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Result Shows Here"
+                    android:textSize="16dp"
+                    android:textColor="@color/blue"
+                    />
+
+                <Button
+                    android:id="@+id/button_segitiga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Result"></Button>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:src="@drawable/Ellipse"
+                    android:layout_margin="20dp"
+                    ></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Luas Lingkaran"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/blue"
+                    />
+                <EditText
+                    android:id="@+id/radius_lingkaran"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Masukkan alas"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blue"
+                    ></EditText>
+
+                <TextView
+                    android:id="@+id/result_lingkaran"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Result Shows Here"
+                    android:textSize="16dp"
+                    android:textColor="@color/blue"
+                    />
+
+                <Button
+                    android:id="@+id/button_lingkaran"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Result"></Button>
+        </LinearLayout>
+
+
+
+    </ScrollView>
